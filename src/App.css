@@ -1,0 +1,40 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button{
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+}
+.inc{
+  background-color: lightskyblue;
+}
+.dec{
+  background-color: lightcoral;
+}
+button.reset{
+  border-radius: 0%;
+  width: 60%;
+  background-color: seagreen;
+  border-radius: 10px;
+}
+span{
+  margin: 0 20px;
+  font-size: 30px;
+}
+.counter{
+  box-shadow: 0px 0px 4px 5px #ddd;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 15px;
+}
